@@ -1,0 +1,63 @@
+body{ 
+    text-align: center; 
+    margin: 0; 
+    background-image: linear-gradient( 
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3) ) ,
+     url("image/mar_ballenas.jpeg"); 
+     background-size: cover; 
+     background-position: center; 
+     background-repeat: no-repeat; 
+     display: grid; 
+     align-items: center; 
+     justify-content: center; 
+     height: 100vh; gap: 10px; 
+    
+    
+    } #calculador{ 
+        max-width: 360px; 
+        background-color: rgba(255,255,255,0.2); 
+        backdrop-filter: blur(10px); 
+        border-radius: 15px; 
+        padding: 20px; 
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2); 
+        color: #4e4e4e; 
+    
+    
+    } #display{ 
+        width: 100%; 
+        height: 56px; 
+        font-size: 20px; 
+        text-align: center; 
+        margin-bottom: 10px; 
+        padding: 20px; 
+        border-radius: 5px; 
+        color: rgb(0, 0, 0); 
+        background-color: rgb(224, 219, 219); 
+        border: none; 
+        box-sizing: border-box; 
+    } 
+    
+    button{ 
+        text-align: center; 
+        width: calc(25% - 10px); 
+        height: 50px; 
+        margin: 10px 5px; 
+        border: none; 
+        border-radius: 5px; 
+        float: left; 
+        background-color: rgba(255,255,255,0.35); 
+        backdrop-filter: blur(5px); 
+        color: rgb(2, 2, 2); 
+    } 
+    button:hover{ 
+        cursor: pointer } 
+        
+        .equal-operador{
+             background-color: rgb(14, 53, 78); 
+             color: aliceblue; } 
+             
+             
+    button:active{ transform: scale(1.05); 
+        background-color: rgb(14, 53, 78); 
+        color: aliceblue; }
